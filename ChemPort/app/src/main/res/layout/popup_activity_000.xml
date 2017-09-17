@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_activity_000"
+    android:id="@+id/popup_activity_000">
+
+    <TextView
+        android:id="@+id/flashOpt_00"
+        android:text="@string/flashOpt_000"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/flashOpt_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/flashOpt_001"/>
+
+            <Button
+                android:id="@+id/flashButton_00"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:text="@string/flashOpt_001a" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/flashOpt_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/flashOpt_002X"/>
+
+            <TextView
+                android:id="@+id/flashOpt_Range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="50dp"
+                android:text="@string/flashOpt_default" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/flashButton_01"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/flashOpt_002a"/>
+
+            <Button
+                android:id="@+id/flashButton_02"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="50dp"
+                android:text="@string/flashOpt_002b" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/screen_status"
+        android:text="@string/flashOpt_note"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/flashButton_04"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/flashOpt_005" />
+
+        <Button
+            android:id="@+id/flashButton_03"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/flashOpt_004" />
+
+    </TableRow>
+
+</LinearLayout>

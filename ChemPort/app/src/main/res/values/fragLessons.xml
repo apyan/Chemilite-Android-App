@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings for the Lessons Fragment -->
+    <string name="lessons_title">Lessons</string>
+
+    <string name="lessons_000">Introduction</string>
+    <string name="lessons_001">Scientific\nMethod</string>
+    <string name="lessons_002">Matter</string>
+    <string name="lessons_003">Atom</string>
+    <string name="lessons_004">Elements</string>
+    <string name="lessons_005">Chemical\nFormulas</string>
+    <string name="lessons_006">Molecules</string>
+    <string name="lessons_007">Compounds</string>
+    <string name="lessons_008">Ions</string>
+    <string name="lessons_009"></string>
+    <string name="lessons_010"></string>
+    <string name="lessons_011"></string>
+    <string name="lessons_012"></string>
+
+    <string name="lessons_difficulty_000">Basic Topics</string>
+    <string name="lessons_difficulty_001">Intermediate Topics</string>
+
+    <!-- String for the Reader -->
+    <string name="reader_000">Reader</string>
+    <string name="reader_001">Previous</string>
+    <string name="reader_002">Next</string>
+    <string name="reader_003">0 / 0</string>
+    <string name="reader_004">Exit</string>
+
+</resources>

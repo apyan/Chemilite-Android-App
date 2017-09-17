@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "198496240893",
+    "firebase_url": "https://chemiliteapp.firebaseio.com",
+    "project_id": "chemiliteapp",
+    "storage_bucket": "chemiliteapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198496240893:android:15ba7e7fbe18619e",
+        "android_client_info": {
+          "package_name": "com.spectrus.chemport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198496240893-lv36cvd6hnu3v363t2odkc5ubu82891j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqGMMoJkJThJuZVQedB3-60xJwp9zoDb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

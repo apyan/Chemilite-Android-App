@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings for the Options Fragment -->
+    <string name="options_title">Options</string>
+    <string name="options_000">Profile</string>
+    <string name="options_001">Title\nScreen</string>
+
+    <string name="options_002">Game\nScores</string>
+    <string name="options_003">Game\nModes</string>
+
+    <string name="options_004">Notifications</string>
+    <string name="options_005">Messages</string>
+
+    <string name="options_006">Graphics</string>
+    <string name="options_007">Bulletin</string>
+
+    <string name="options_008">User\nSupport</string>
+    <string name="options_009">Connect</string>
+
+    <string name="options_010">Links</string>
+    <string name="options_011">Clear Data</string>
+
+    <!-- Clearing Data -->
+    <string name="clear_data_000">Clear Data</string>
+    <string name="clear_data_001">WARNING: Clearing data cannot be\n undone! Please think twice.</string>
+    <string name="clear_data_002">Type: CLEAR-CP-DATA</string>
+    <string name="clear_data_003"> </string>
+    <string name="clear_data_004">* Incorrect input, try again.</string>
+    <string name="clear_data_005">Cancel</string>
+    <string name="clear_data_006">Clear Data</string>
+
+    <!-- Title Screen Options -->
+    <string name="title_screen_000">Title Screen</string>
+    <string name="title_screen_001">Opening Screen</string>
+    <string name="title_screen_002">Closing Screen</string>
+    <string name="title_screen_003">* Changes apply automatically.</string>
+    <string name="title_screen_on">ON</string>
+    <string name="title_screen_off">OFF</string>
+    <string name="title_screen_cancel">Back</string>
+
+    <!-- Name Change Popup -->
+    <string name="name_change_000">Name Change</string>
+    <string name="name_change_001">* The character maximum is 15.\n* Name must be 5 characters or more.</string>
+    <string name="name_change_002">Enter Name</string>
+    <string name="name_change_003a"> </string>
+    <string name="name_change_003b">* Invalid name, please enter again.</string>
+    <string name="name_change_004">Submit</string>
+    <string name="name_change_005">Cancel</string>
+
+    <!-- Displaying Profile Info -->
+    <string name="profile_screen_000">Profile</string>
+    <string name="profile_screen_001">Name:</string>
+    <string name="profile_screen_002">Joined:</string>
+    <string name="profile_screen_003">Last Played:</string>
+    <string name="profile_screen_004">Medals</string>
+
+    <string name="p_note_00">You have not received\n
+        any medals.</string>
+
+    <string name="profile_screen_skip"> </string>
+    <string name="profile_screen_name">Change Name</string>
+    <string name="profile_screen_back">Back</string>
+
+    <!-- Support and Reporting Types -->
+    <string name="support_000">User Support</string>
+    <string name="support_001">Select the subject matter:</string>
+    <string name="support_002">Specify matter:</string>
+    <string name="support_002a">What\'s the problem?</string>
+    <string name="support_003">Enter e-mail (Optional):</string>
+    <string name="support_004">Send Report</string>
+    <string-array name="support_subject_matter">
+        <item>Bugs or Glitches</item>
+        <item>Technical Issues</item>
+        <item>User Services</item>
+        <item>Service Suggestions</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Month Name Arrays -->
+    <string-array name = "month_tokens">
+        <item> </item>
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>May</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Aug.</item>
+        <item>Sept.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+
+</resources>

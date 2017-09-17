@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:background="@drawable/other_background_000"
+    tools:context="com.spectrus.chemport.UserSupportScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="left|center"
+        android:background="@drawable/menu_banner_top_000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/support_title"
+            android:text="@string/support_000"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView_00"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="false"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_00"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:background="@drawable/textfield_002"
+            android:text="@string/support_001" />
+
+        <Spinner
+            android:id="@+id/subject_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/text_01"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/textfield_002"
+            android:text="@string/support_002" />
+
+        <EditText
+            android:id="@+id/subject_message"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/support_002a" >
+        </EditText>
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="onMailSend"
+            android:textSize="20dp"
+            android:text="@string/support_004"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:screenOrientation="portrait"
+            android:orientation="vertical"
+            android:background="@drawable/ad_banner_000">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/baseAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id_BaseAd">
+            </com.google.android.gms.ads.AdView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

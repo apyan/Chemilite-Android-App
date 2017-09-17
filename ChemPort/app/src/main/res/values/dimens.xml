@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Images for Text Reading -->
+    <dimen name="buffer_w">10dp</dimen>
+    <dimen name="buffer_h">10dp</dimen>
+
+    <dimen name="reader_w">340dp</dimen>
+    <dimen name="reader_h">100dp</dimen>
+
+    <dimen name="l_00_0_w">340dp</dimen>
+    <dimen name="l_00_0_h">225dp</dimen>
+
+    <dimen name="l_00_1_w">340dp</dimen>
+    <dimen name="l_00_1_h">215dp</dimen>
+
+    <dimen name="l_00_2_w">340dp</dimen>
+    <dimen name="l_00_2_h">220dp</dimen>
+</resources>

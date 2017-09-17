@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Current Card/Back Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_00"
+                android:text="@string/flashcards_004"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/button_00"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:onClick="onFlashExit"
+                android:textSize="20dp"
+                android:layout_alignParentRight="true"
+                android:text="@string/flashcards_003" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- Flashcard Display -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onFlipCard"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/flashcard_front"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:alpha="1"
+            android:background="@drawable/flashcard_front_ca">
+
+            <TextView
+                android:id="@+id/card_front"
+                android:text="@string/card_front"
+                android:layout_marginTop="2dp"
+                android:textSize="50dp"
+                android:textColor="#308937"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flashcard_back"
+            android:alpha="0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/flashcard_back_ca"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/card_back"
+                android:text="@string/card_back"
+                android:layout_marginTop="2dp"
+                android:textSize="50dp"
+                android:textColor="#721E25"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <!-- Previous/Next Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_01"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:onClick="onPrevCard"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:text="@string/flashcards_000"/>
+
+            <Button
+                android:id="@+id/button_02"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:onClick="onFlipCard"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/flashcards_001"/>
+
+            <Button
+                android:id="@+id/button_03"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:onClick="onNextCard"
+                android:textSize="20dp"
+                android:layout_alignParentRight="true"
+                android:text="@string/flashcards_002" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

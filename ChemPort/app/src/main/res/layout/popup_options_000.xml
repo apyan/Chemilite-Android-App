@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_options_000"
+    android:id="@+id/popup_options_000">
+
+    <TextView
+        android:id="@+id/screen_title"
+        android:text="@string/title_screen_000"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="138dp"
+        android:layout_marginBottom="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/openApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/title_screen_001"/>
+
+            <Button
+                android:id="@+id/opening_button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:onClick="onEnterScreen"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:text="@string/title_screen_on" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/leaveApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/title_screen_002"/>
+
+            <Button
+                android:id="@+id/leave_button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:onClick="onLeaveScreen"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:text="@string/title_screen_on" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/screen_status"
+        android:text="@string/title_screen_003"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="onPopupExit"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/title_screen_cancel" />
+
+    </TableRow>
+
+</LinearLayout>

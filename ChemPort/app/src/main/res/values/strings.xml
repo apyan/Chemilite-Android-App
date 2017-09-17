@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">Chemilite</string>
+
+    <!-- For Splash Screen -->
+    <string name="app_name_000">chemilite</string>
+
+    <!-- AdMob IDs -->
+    <string name="app_ad_id">ca-app-pub-5298277570559363~7672048730</string>
+    <string name="ad_unit_id">ca-app-pub-5298277570559363/</string>
+    <string name="banner_ad_unit_id_BaseAd">ca-app-pub-5298277570559363/9148781930</string>
+
+    <!-- Player File Name -->
+    <string name="user_data_file">user-cp-s.cp</string>
+
+    <string name="app_status">Version: Alpha (0.0.1)</string>
+
+    <!-- Chemilite Contact E-mail -->
+    <string name="app_contact_email">chemport.app@gmail.com</string>
+
+    <string name="splash_proceed">Tap to Proceed</string>
+
+    <!-- Clear Key (For deleting player data) -->
+    <string name="clear_key">CLEAR-CP-DATA</string>
+
+    <!-- Name of the Fragments on Screen -->
+    <string name="frag_000">Lessons</string>
+    <string name="frag_001">Activity</string>
+    <string name="frag_002">Index</string>
+    <string name="frag_003">Options</string>
+
+    <!-- Options -->
+    <string name="option_000">Options</string>
+    <string name="option_prompt">Adjust the settings.</string>
+    <string name="option_001">Sound Effects:</string>
+    <string name="option_001a">ON</string>
+    <string name="option_001b">OFF</string>
+    <string name="option_002">Clear Player Profile:</string>
+    <string name="option_002a">Erase Data</string>
+    <string name="option_002b">Scoreboard and other data will be cleared.</string>
+    <string name="option_002c">Clearing the profile can never be undone.</string>
+    <string name="option_002d">Are you sure you want to proceed with this?</string>
+    <string name="option_002e">Proceed</string>
+    <string name="option_002f">Back</string>
+    <string name="option_003">Quizzes Mode:</string>
+    <string name="option_003a">Test by Symbols</string>
+    <string name="option_003b">Test by Elements</string>
+    <string name="option_004">Flashcards Mode:</string>
+    <string name="option_004a">Test by Symbols</string>
+    <string name="option_004b">Test by Elements</string>
+
+    <!-- Reader Strings -->
+    <string name="reader_text">Text</string>
+
+    <!-- Coming Soon -->
+    <string name="coming_soon_000">Coming Soon</string>
+    <string name="coming_soon_001">Currently under development.\nTo be release soon.</string>
+
+    <!-- New Username Popup -->
+    <string name="username_000">Welcome</string>
+    <string name="username_001">Welcome to Chemilite!</string>
+    <string name="username_002">Before you proceed,\nplease enter your name.</string>
+    <string name="username_002a">* You can rename via Profile in Options.\n* Name must be 5 characters or more.</string>
+    <string name="username_002b">Enter Name</string>
+    <string name="username_003a"> </string>
+    <string name="username_003b">* Invalid name, please enter again.</string>
+    <string name="username_004">Proceed</string>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="@drawable/popup_003_ca"
+    android:orientation="vertical"
+    android:id="@+id/flashcard_popup">
+
+    <ScrollView
+        android:id="@+id/scrollView_00"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "8"
+        android:paddingTop="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top|center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/flashOpt_00"
+                android:text="@string/flashOpt_000"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/flashOpt_01"
+                    android:text="@string/flashOpt_001"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/flashButton_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:paddingRight="30dp"
+                    android:textSize="25dp"
+                    android:text="@string/flashOpt_001a" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/flashOpt_02"
+                android:text="@string/flashOpt_002"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/flashOpt_Range"
+                android:text="@string/flashOpt_default"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/flashButton_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:paddingRight="30dp"
+                    android:textSize="25dp"
+                    android:text="@string/flashOpt_002a" />
+
+                <Button
+                    android:id="@+id/flashButton_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:paddingRight="30dp"
+                    android:textSize="25dp"
+                    android:text="@string/flashOpt_002b" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="25dp">
+
+                <Button
+                    android:id="@+id/flashButton_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:paddingRight="30dp"
+                    android:textSize="25dp"
+                    android:background="@drawable/buffer_square"
+                    android:text="@string/flashOpt_004" />
+
+                <Button
+                    android:id="@+id/flashButton_04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:textSize="25dp"
+                    android:background="@drawable/buffer_square"
+                    android:text="@string/flashOpt_005" />
+
+            </TableRow>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Glossary Text -->
+    <string name="glossary_title">Glossary</string>
+    <string name="glossary_counter">0 / 0</string>
+    <string name="glossary_helper">Help</string>
+    <string name="glossary_exit">Exit</string>
+    <string name="glossary_abc">ABC</string>
+
+    <string name="glossary_empty">You have not found any words.\n
+        Please explore Chemilite to find them!</string>
+
+    <string name="glossary_help">Fill out the glossary by finding words\n
+        around Chemilite!\n
+        Afterwards, tap on the words to view them.</string>
+
+    <!-- Vocabulary (1 of each section) -->
+    <string-array name = "glossary_words">
+        <item>Chemistry</item>
+        <item>Scientific Method</item>
+        <item>Observation</item>
+        <item>Hypothesis</item>
+        <item>Experiment</item>
+        <item>Law</item>
+        <item>Theory</item>
+        <item>Atom</item>
+        <item>Molecule</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name = "glossary_definitions">
+        <item>The study of matter and it\'s properties,\n
+            structure, composition, and transformation.</item>
+        <item>A procedure used by scientists to seek\n
+            solutions to problems. Consists of steps of\n
+            making observations, forming hypotheses,\n
+            and performing experiments.</item>
+        <item>Observation</item>
+        <item>An unconfirmed, otherwise tentative,\n
+            conjecture for an observation.</item>
+        <item>Experiment</item>
+        <item>Law</item>
+        <item>Theory</item>
+        <item>The submicroscopic particle that acts as\n
+            the fundamental building blocks of matter.</item>
+        <item>A certain geometrical arrangement formed\n
+            by two or more atoms.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name = "glossary_images">
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+    </string-array>
+
+</resources>

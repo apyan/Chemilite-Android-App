@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Lesson ID (Ignore, Not used) -->
+    <string name="lesson_id_000">0. Testing</string>
+    <string name="lesson_id_001">1. Introduction</string>
+    <string name="lesson_id_002">2. Elements</string>
+    <string name="lesson_id_003">3. Chemical Symbols</string>
+    <string name="lesson_id_004">4. Molar Mass</string>
+    <string name="lesson_id_005">5. Moles</string>
+
+    <!-- Lesson Head -->
+    <string name="lesson_head_test">Reader - Testing</string>
+    <string name="lesson_head_000">Introduction</string>
+    <string name="lesson_head_001">Scientific Method</string>
+    <string name="lesson_head_002">Matter</string>
+    <string name="lesson_head_003">Atom</string>
+    <string name="lesson_head_004">Elements</string>
+    <string name="lesson_head_005">Symbols</string>
+
+    <!-- Lesson 0 Text (2 = 1 page) -->
+    <string-array name = "lesson_000_text">
+        <item>Chemistry is all around us!</item>
+        <item>From a seed sprouting to\n
+            automobile manufacturing,\n
+            chemistry plays a\n
+            pivotal role everyday.</item>
+        <item>So...\n
+            What is chemistry?</item>
+        <item><u>Chemistry</u> is the study of\n
+            matter, specifically the\n
+            properties and transformation\n
+            of matter.</item>
+        <item>The field of chemistry\n
+            holds a wide range of topics.</item>
+        <item>Known to be considered as a\n
+            \'central science\', chemistry can\n
+            easily branch out to other\n
+            scientific fields, such as\n
+            biochemistry and astronomy.</item>
+        <item>Here in Chemilite, there\n
+            are many basic topics of\n
+            chemistry to be uncovered!</item>
+        <item>Note: Please refer to\n
+            \'About Chemilite\' via\n
+            \'Index\' tab.</item>
+    </string-array>
+
+    <!-- Lesson 0 Images (1 = 1 page) -->
+    <string-array name = "lesson_000_img">
+        <item>lesson_00_0</item>
+        <item>lesson_00_1</item>
+        <item>lesson_00_2</item>
+        <item>reader_logo</item>
+    </string-array>
+
+    <!-- Lesson 1 Text (2 = 1 page) -->
+    <string-array name = "lesson_001_text">
+        <item>Every law and theory in\n
+            science must undergo through\n
+            a series of observations,\n
+            hypotheses, and experiments\n
+            in order to properly confirm\n
+            a solution to a problem.</item>
+        <item>This procedure is known as\n
+            the \'scientific method\'.</item>
+        <item>The scientific method has\n
+            used for a long time by\n
+            previous scientists.</item>
+        <item>Thus, many laws and theories\n
+            were discovered.</item>
+        <item>I. Observation\n
+            The first part of the\n
+            scientific method is forming\n
+            observations.</item>
+        <item></item>
+        <item>II. Hypothesis</item>
+        <item></item>
+        <item>III. Experiment</item>
+        <item></item>
+        <item>Depending on the results\n
+            a scientific method has been\n
+            performed!\n
+            Even when the hypothesis is\n
+            proven wrong by the experiment,\n
+            a new hypothesis is born.\n
+            As a result, another experiment\n
+            would have to be performed.</item>
+        <item>Aside from this, let\'s talk\n
+            about theories and laws.</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <!-- Lesson 1 Images (1 = 1 page) -->
+    <string-array name = "lesson_001_img">
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+        <item>buffer_square</item>
+    </string-array>
+
+</resources>

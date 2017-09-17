@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spectrus.chemport">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuFragmentScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FlashcardScreen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ReaderScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Loading_Screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MultipleChoiceScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GlossaryScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserSupportScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PeriodicTableScreen"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

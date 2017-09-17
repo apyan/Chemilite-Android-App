@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_options_001"
+    android:id="@+id/popup_options_001">
+
+    <TextView
+        android:id="@+id/screen_title"
+        android:text="@string/profile_screen_000"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/profile_screen_001"/>
+
+            <TextView
+                android:id="@+id/text_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:text="@string/profile_screen_skip" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/profile_screen_002"/>
+
+            <TextView
+                android:id="@+id/text_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:text="@string/profile_screen_skip" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/profile_screen_003"/>
+
+            <TextView
+                android:id="@+id/text_05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:text="@string/profile_screen_skip" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/screen_medals"
+        android:text="@string/profile_screen_004"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/header_color_000"
+        android:layout_width="175dp"
+        android:layout_height="30dp" />
+
+    <HorizontalScrollView
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/no_medals"
+            android:text="@string/p_note_00"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </HorizontalScrollView>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/change_name"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/profile_screen_name" />
+
+        <Button
+            android:id="@+id/profile_back"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/profile_screen_back" />
+
+    </TableRow>
+
+</LinearLayout>

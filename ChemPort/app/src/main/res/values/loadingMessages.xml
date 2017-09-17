@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Loading Messages in Loading Screen -->
+    <string name="load_text">Loading...</string>
+
+    <string-array name="loading_messages">
+        <item>Letter \'J\' does not appear in\nany chemical symbols.</item>
+        <item>The first elements were\nthought to be fire, water, wind\nand earth.</item>
+        <item>Hydrogen is the most\nabundant element in the entire\nuniverse.</item>
+        <item>Every lightning strike\nproduces ozone (O3) for the\nozone layer.</item>
+        <item>Early chemistry usages\ndates back to at earliest\nduring Ancient Egypt.</item>
+        <item>Aluminium is the most\nabundant metal in the\nEarth\'s crust.</item>
+        <item>The history of chemistry\ncan trace back to the\npseudoscience called alchemy.</item>
+    </string-array>
+
+</resources>

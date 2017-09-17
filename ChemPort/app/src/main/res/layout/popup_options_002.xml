@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_options_000"
+    android:id="@+id/popup_options_002">
+
+    <TextView
+        android:id="@+id/screen_title"
+        android:text="@string/name_change_000"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/text_00"
+        android:text="@string/name_change_001"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText_00"
+        android:layout_marginTop="17dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_change_002"
+        android:background="@drawable/textfield_001"
+        android:paddingLeft="15dp"
+        android:inputType="text"
+        android:maxLength="15"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_01"
+        android:text="@string/name_change_003a"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_marginTop="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="onNameCancel"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/name_change_005" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="onNameSubmit"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/name_change_004" />
+
+    </TableRow>
+
+</LinearLayout>

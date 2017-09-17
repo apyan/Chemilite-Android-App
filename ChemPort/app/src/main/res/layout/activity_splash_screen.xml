@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:background="@drawable/splash_background_001">
+
+    <TextView
+        android:id="@+id/appVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#3f0000"
+        android:textSize="15dp"
+        android:text="@string/app_status" />
+
+    <!-- <TextView
+        android:id="@+id/titleLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:text="@string/app_name_000" /> -->
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/logo_title_000"/>
+
+    <ImageView
+        android:id="@+id/promptDec"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:gravity="center"
+        android:src="@drawable/prompt_decoration_000"/>
+
+    <TextView
+        android:id="@+id/proceedString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="125dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:text="@string/splash_proceed" />
+
+    <Button
+        android:id="@+id/splashButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onSplash"
+        android:text=""
+        android:background="@drawable/buffer_square" />
+
+    <ImageView
+        android:id="@+id/adBanner"
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ad_banner_000"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/baseAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_BaseAd">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Multiple Choice -->
+    <string name="mc_000">Multiple Choice</string>
+    <string name="mc_001">0 / 0</string>
+    <string name="mc_002">Exit</string>
+    <string name="mc_003">Prev.</string>
+    <string name="mc_004">Next</string>
+
+    <string name="mc_title_00">Chemical Symbols</string>
+    <string name="mc_title_00a">Identify this chemical symbol:</string>
+    <string name="mc_title_00b">Identify this element\'s symbol:</string>
+    <string name="mc_title_01">Moles</string>
+    <string name="mc_title_02">Time Taken:</string>
+
+    <string name="mc_q0">Question Number</string>
+    <string name="mc_q1">Question Text #1</string>
+    <string name="mc_q2">Question Text #2</string>
+
+    <string name="mc_t0">#1</string>
+    <string name="mc_t1">#2</string>
+    <string name="mc_t2">#3</string>
+    <string name="mc_t3">#4</string>
+
+    <string name="timer_format">Timer: %s</string>
+
+    <!-- MC Pause Popup -->
+    <string name="mc_pause_000">Pause</string>
+    <string name="mc_pause_001">Press \'Resume\' to\ncontinue the quiz!</string>
+    <string name="mc_pause_002">Press \'Quit\' to end the quiz.</string>
+    <string name="mc_pause_002a">* Quitting does not provide a score.</string>
+    <string name="mc_pause_003">Resume</string>
+    <string name="mc_pause_004">Quit</string>
+
+    <!-- MC Options -->
+    <string name="mcOpt_000">Multiple Choice</string>
+    <string name="mcOpt_001">Practice by:</string>
+    <string name="mcOpt_001a">Symbols</string>
+    <string name="mcOpt_001b">Elements</string>
+    <string name="mcOpt_002">Learning Range:</string>
+    <string name="mcOpt_002a"> - </string>
+    <string name="mcOpt_002b"> + </string>
+    <string name="mcOpt_003">Game Mode:</string>
+    <string name="mcOpt_003a">Leisure</string>
+    <string name="mcOpt_003b">Timer</string>
+    <string name="mcOpt_004">Proceed</string>
+    <string name="mcOpt_005">Back</string>
+    <string name="mcOpt_default">null</string>
+
+    <string name="mc_note_000">* Leisure Mode will have a basic score.</string>
+    <string name="mc_note_001">* Timer Mode will have a game score.</string>
+
+    <string-array name = "mcOpt_Range">
+        <item>Beginner</item>
+        <item>Normal</item>
+        <item>Medium</item>
+        <item>Advance</item>
+        <item>All Out</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:gravity="center|left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_index_000"
+    android:id="@+id/popup_index_001">
+
+    <TextView
+        android:id="@+id/element_title"
+        android:text="@string/element_title"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="15dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView_00"
+        android:layout_width="320dp"
+        android:layout_marginLeft="40dp"
+        android:fadeScrollbars="false"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:text="@string/periodic_000"/>
+
+            <TextView
+                android:id="@+id/text_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:text="@string/periodic_001"/>
+
+            <TextView
+                android:id="@+id/text_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:text="@string/periodic_002"/>
+
+            <TextView
+                android:id="@+id/text_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/periodic_003"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/per_close"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:textSize="24dp"
+            android:textColor="#FFFFFF"
+            android:onClick="onCloseElement"
+            android:text="@string/periodic_close" />
+
+    </TableRow>
+
+</LinearLayout>

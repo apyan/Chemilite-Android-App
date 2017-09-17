@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Flashcards -->
+    <string name="cards_000">Flashcards</string>
+    <string name="cards_000a">Select a difficulty.</string>
+    <string name="cards_001">Beginner</string>
+    <string name="cards_002">Basic</string>
+    <string name="cards_003">Intermediate</string>
+    <string name="cards_004">Hard</string>
+    <string name="cards_005">Challenge</string>
+    <string name="card_screen_a">What is the Element of this Symbol?</string>
+    <string name="card_screen_b">What is the Symbol of this Element?</string>
+    <string name="card_screen_0">Flip Card</string>
+    <string name="card_screen_1">Previous</string>
+    <string name="card_screen_2">Next</string>
+    <string name="card_screen_3">Quit</string>
+    <string name="card_screen_4">Are you sure you want to quit?</string>
+    <string name="card_screen_4a">Yes</string>
+    <string name="card_screen_4b">No</string>
+
+    <!-- Basic Scripts for Flashcard Screen -->
+    <string name="flashcards_000">Previous</string>
+    <string name="flashcards_001">Flip</string>
+    <string name="flashcards_002">Next</string>
+    <string name="flashcards_003">Exit</string>
+    <string name="flashcards_004">0 / 0</string>
+
+    <string name="card_front">FRONT</string>
+    <string name="card_back">BACK</string>
+
+    <!-- Flashcard Options -->
+    <string name="flashOpt_000">Flashcards</string>
+    <string name="flashOpt_001">Practice by:</string>
+    <string name="flashOpt_001a">Symbols</string>
+    <string name="flashOpt_001b">Elements</string>
+    <string name="flashOpt_002">Learning Range:</string>
+    <string name="flashOpt_002X">Difficulty:</string>
+    <string name="flashOpt_002a"> - </string>
+    <string name="flashOpt_002b"> + </string>
+    <string name="flashOpt_003">Number of Cards:</string>
+    <string name="flashOpt_003a"> - </string>
+    <string name="flashOpt_003b"> + </string>
+    <string name="flashOpt_004">Proceed</string>
+    <string name="flashOpt_005">Back</string>
+    <string name="flashOpt_default">null</string>
+
+    <string name="flashOpt_note">* Increasing the difficulty level also\n
+        increases the number of cards and\n
+        elements used for practice.</string>
+
+    <string-array name = "flashOpt_Range">
+        <item>Beginner</item>
+        <item>Normal</item>
+        <item>Medium</item>
+        <item>Advance</item>
+        <item>Expert</item>
+        <item>All Out</item>
+    </string-array>
+
+</resources>

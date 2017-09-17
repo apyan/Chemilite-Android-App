@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings for the Index Fragment -->
+    <string name="index_title">Index</string>
+
+    <string name="index_000">Periodic\nTable</string>
+    <string name="index_001">Glossary</string>
+
+    <string name="index_002">About\nChemilite</string>
+    <string name="index_003">Hidden\nScripts</string>
+
+    <string name="index_004">Lesson\nHelp</string>
+    <string name="index_005">Activity\nHelp</string>
+
+    <string name="index_006">App\nGuide</string>
+    <string name="index_007">Credits</string>
+
+    <!-- Periodic Table -->
+    <string name="periodic_title">Periodic Table</string>
+    <string name="element_title">Element</string>
+    <string name="periodic_000">Element (Symbol)</string>
+    <string name="periodic_001">Atomic Number: </string>
+    <string name="periodic_002">Atomic Mass: </string>
+    <string name="periodic_003">Description</string>
+    <string name="periodic_close">Close</string>
+
+    <!-- Credits Popup -->
+    <string name="credits_title">Credits</string>
+    <string name="credits_000">Chemilite</string>
+    <string name="credits_001">(2014 - Present)</string>
+    <!-- Insert App Status (strings.xml) Here -->
+    <string name="credits_003">Design and Development</string>
+    <string name="credits_004">Alvin Yan</string>
+    <string name="credits_005"></string>
+    <string name="credits_close">Close</string>
+
+    <string name="about_cp">About Chemilite</string>
+
+    <!-- About Chemilite Text (2 = 1 page) -->
+    <string-array name = "about_cp_text">
+        <item>The Chemilite application is\n
+            designed for users, assuming to\n
+            have little to no knowledge in\n
+            chemistry, to be introduced to\n
+            basic chemistry topics.</item>
+        <item>Various chemistry topics can be\n
+            learned at a quick-paced manner,\n
+            in order for you to get the basic\n
+            gist of the scientific field.</item>
+        <item>Also, you can hone your\n
+            chemistry knowledge through\n
+            various interactive activities,\n
+            such as quizzes and games.</item>
+        <item>On the last note, thank you for\n
+            downloading the Chemilite\n
+            application.\n
+            Without further ado, hope you\n
+            enjoy learning!\n\n
+            Note: Application is not meant\n
+            to be used as a textbook.</item>
+    </string-array>
+
+    <!-- About Chemilite Images (1 = 1 page) -->
+    <string-array name = "about_cp_img">
+        <item>reader_logo</item>
+        <item>reader_logo</item>
+    </string-array>
+
+    <!-- Index -->
+    <!--<string name="index_000">Index</string>
+    <string name="index_000a">Select to proceed.</string>
+    <string name="index_001">Play Guide</string>
+    <string name="index_002">Periodic Table</string>
+    <string name="index_003">Trivia Notes</string>
+    <string name="index_004">Calculator</string>
+    <string name="index_005">Formulas</string>
+    <string name="index_006">About Chem-Aide</string>
+    <string name="index_007">Credits</string>-->
+
+</resources>

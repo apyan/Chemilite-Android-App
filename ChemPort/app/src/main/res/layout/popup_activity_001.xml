@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_activity_001"
+    android:id="@+id/popup_activity_001">
+
+    <TextView
+        android:id="@+id/popup_title"
+        android:text="@string/mc_000"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mcOpt_000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/mcOpt_001"/>
+
+            <Button
+                android:id="@+id/mcButton_000"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:text="@string/mcOpt_001a" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mcOpt_001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/mcOpt_002"/>
+
+            <TextView
+                android:id="@+id/mcOpt_002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="50dp"
+                android:text="@string/mcOpt_default" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/mcButton_001"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/mcOpt_002a"/>
+
+            <Button
+                android:id="@+id/mcButton_002"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="50dp"
+                android:text="@string/mcOpt_002b" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mcOpt_003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/mcOpt_003"/>
+
+            <Button
+                android:id="@+id/mcButton_003"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:text="@string/mcOpt_003a" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/screen_status"
+        android:text="@string/flashOpt_note"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/screen_status_0"
+        android:text="@string/mc_note_000"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/mcButton_005"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/mc_back" />
+
+        <Button
+            android:id="@+id/mcButton_004"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/mc_proceed" />
+
+    </TableRow>
+
+</LinearLayout>

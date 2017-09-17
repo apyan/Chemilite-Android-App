@@ -1,0 +1,39 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- android:interpolator="@android:interpolator/accelerate_decelerate" -->
+    <!-- Rotate. -->
+    <objectAnimator
+        android:valueFrom="-180"
+        android:valueTo="0"
+        android:propertyName="rotationY"
+        android:duration="490" />
+
+    <!-- When the rotation reach half of animation, show the card -->
+    <objectAnimator
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:propertyName="alpha"
+        android:duration="1"
+        android:startOffset="245" />
+
+    <!--<objectAnimator
+        android:valueFrom="1.0"
+        android:valueTo="0.0"
+        android:propertyName="alpha"
+        android:duration="0" />
+
+    <objectAnimator
+        android:valueFrom="-180"
+        android:valueTo="0"
+        android:propertyName="rotationY"
+        android:repeatMode="reverse"
+        android:duration="490" />
+
+    <objectAnimator
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:propertyName="alpha"
+        android:startOffset="245"
+        android:duration="0" />-->
+
+</set>

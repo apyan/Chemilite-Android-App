@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings for the Activity Fragment -->
+    <string name="activity_title">Activity</string>
+
+    <string name="activity_000">Flashcards</string>
+    <string name="activity_001">Multiple Choice (Sym.)</string>
+
+    <string name="activity_002"></string>
+    <string name="activity_003"></string>
+
+    <!-- Multiple Choice Options -->
+    <string name="mc_0000">Multiple Choice</string>
+    <string name="mc_0001">Practice by:</string>
+    <string name="mc_0001a">Symbols</string>
+    <string name="mc_0001b">Elements</string>
+    <string name="mc_0002">Flashcards</string>
+    <string name="mc_0003">Flashcards</string>
+    <string name="mc_0004">Flashcards</string>
+    <string name="mc_0005">Flashcards</string>
+    <string name="mc_proceed">Proceed</string>
+    <string name="mc_back">Back</string>
+
+</resources>

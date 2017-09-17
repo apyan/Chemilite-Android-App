@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_main_001"
+    android:id="@+id/popup_pause_000">
+
+    <TextView
+        android:id="@+id/screen_title"
+        android:text="@string/mc_pause_000"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp" />
+
+    <TextView
+        android:id="@+id/text_00"
+        android:text="@string/mc_pause_001"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_01"
+        android:text="@string/mc_pause_002"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_02"
+        android:text="@string/mc_pause_002a"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_marginTop="53dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_resume"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="onResumePause"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/mc_pause_003" />
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="onExitPause"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:text="@string/mc_pause_004" />
+
+    </TableRow>
+
+</LinearLayout>
