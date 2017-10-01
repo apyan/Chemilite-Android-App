@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../../USB DISK/ChemPort/ChemPort.iml" filepath="$PROJECT_DIR$/../../../../USB DISK/ChemPort/ChemPort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../USB DISK/ChemPort/app/app.iml" filepath="$PROJECT_DIR$/../../../../USB DISK/ChemPort/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChemPort.iml" filepath="$PROJECT_DIR$/ChemPort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:screenOrientation="portrait"
@@ -17,28 +18,31 @@
         <RelativeLayout
             android:id="@+id/relativeLayout0"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/glossary_title"
                 android:text="@string/glossary_title"
                 android:layout_marginLeft="10dp"
-                android:textSize="35dp"
+                android:textSize="35sp"
                 android:textColor="#FFFFFF"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
-                android:layout_alignParentLeft="true" />
+                android:layout_alignParentLeft="true"
+                tools:ignore="RelativeOverlap,RtlHardcoded" />
 
             <Button
                 android:id="@+id/button_exit"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:onClick="onExitButton"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:layout_alignParentRight="true"
-                android:text="@string/glossary_exit" />
+                android:text="@string/glossary_exit"
+                tools:ignore="RtlHardcoded" />
 
         </RelativeLayout>
 
@@ -54,7 +58,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="top|left"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded,ScrollViewSize,UselessLeaf">
 
         </LinearLayout>
 
@@ -71,35 +76,39 @@
         <RelativeLayout
             android:id="@+id/relativeLayout1"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
 
             <Button
                 android:id="@+id/alphabeticalMode"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
                 android:onClick="onAlphabeticalMode"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:layout_alignParentLeft="true"
-                android:text="@string/glossary_abc"/>
+                android:text="@string/glossary_abc"
+                tools:ignore="RtlHardcoded" />
 
             <TextView
                 android:id="@+id/glossary_counter"
                 android:text="@string/glossary_counter"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textColor="#FFFFFF"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                tools:ignore="RelativeOverlap" />
 
             <Button
                 android:id="@+id/button_help"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
                 android:onClick="onGlossaryHelp"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:layout_alignParentRight="true"
-                android:text="@string/glossary_helper" />
+                android:text="@string/glossary_helper"
+                tools:ignore="RtlHardcoded" />
 
         </RelativeLayout>
 

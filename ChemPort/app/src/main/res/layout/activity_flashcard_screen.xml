@@ -18,26 +18,29 @@
         <RelativeLayout
             android:id="@+id/relativeLayout0"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/text_00"
                 android:text="@string/flashcards_004"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="#FFFFFF"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                tools:ignore="RelativeOverlap" />
 
             <Button
                 android:id="@+id/button_00"
                 android:layout_width="125dp"
                 android:layout_height="40dp"
                 android:onClick="onFlashExit"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:layout_alignParentRight="true"
-                android:text="@string/flashcards_003" />
+                android:text="@string/flashcards_003"
+                tools:ignore="RtlHardcoded" />
 
         </RelativeLayout>
 
@@ -64,13 +67,14 @@
                 android:id="@+id/card_front"
                 android:text="@string/card_front"
                 android:layout_marginTop="2dp"
-                android:textSize="50dp"
+                android:textSize="50sp"
                 android:textColor="#308937"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                tools:ignore="ObsoleteLayoutParam" />
 
         </FrameLayout>
 
@@ -86,13 +90,14 @@
                 android:id="@+id/card_back"
                 android:text="@string/card_back"
                 android:layout_marginTop="2dp"
-                android:textSize="50dp"
+                android:textSize="50sp"
                 android:textColor="#721E25"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center" />
+                android:layout_gravity="center"
+                tools:ignore="ObsoleteLayoutParam" />
 
         </FrameLayout>
 
@@ -110,23 +115,25 @@
         <RelativeLayout
             android:id="@+id/relativeLayout1"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
 
             <Button
                 android:id="@+id/button_01"
                 android:layout_width="125dp"
                 android:layout_height="40dp"
                 android:onClick="onPrevCard"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:layout_alignParentLeft="true"
-                android:text="@string/flashcards_000"/>
+                android:text="@string/flashcards_000"
+                tools:ignore="RtlHardcoded" />
 
             <Button
                 android:id="@+id/button_02"
                 android:layout_width="125dp"
                 android:layout_height="40dp"
                 android:onClick="onFlipCard"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:text="@string/flashcards_001"/>
@@ -136,9 +143,10 @@
                 android:layout_width="125dp"
                 android:layout_height="40dp"
                 android:onClick="onNextCard"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:layout_alignParentRight="true"
-                android:text="@string/flashcards_002" />
+                android:text="@string/flashcards_002"
+                tools:ignore="RtlHardcoded" />
 
         </RelativeLayout>
 
